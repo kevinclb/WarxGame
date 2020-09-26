@@ -18,8 +18,8 @@ public class Main {
         int userChoice = 0;
 
 
-
-
+        Deck myDeck = new Deck();
+        String name = "name";
         while (userChoice != 5) {
             System.out.println("\nWelcome to WAR!");
             System.out.println("1) New Deck");
